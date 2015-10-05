@@ -368,6 +368,19 @@ INSERT INTO oc_category_to_store SET category_id = '39', store_id = '0';
 INSERT INTO oc_category_to_layout SET category_id = '39', store_id = '0', layout_id = '0';
 INSERT INTO oc_url_alias SET query = 'category_id=39', keyword = '';
 
+# ADD SEO URLS TO CATEGORIES
+TRUNCATE TABLE `oc_url_alias`;
+--
+-- Dumping data for table `oc_url_alias`
+--
+
+LOCK TABLES `oc_url_alias` WRITE;
+
+INSERT INTO `oc_url_alias` VALUES (1,'category_id=38','pollenboxes'),(2,'category_id=37','grinders'),(3,'category_id=36','cleaner'),(4,'manufacturer_id=8','apple'),(5,'information_id=4','about_us'),(6,'category_id=35','jars'),(7,'category_id=34','domes'),(8,'category_id=33','adaptors'),(9,'category_id=32','ash_catchers'),(10,'category_id=31','glass_screens'),(11,'category_id=30','down_stems'),(12,'category_id=29','slides'),(13,'category_id=27','torches'),(14,'category_id=25','silicon_jars'),(15,'category_id=24','adaptorsrig'),(16,'category_id=21','chillums'),(17,'category_id=20','steamrollers'),(18,'category_id=19','sidecars'),(19,'category_id=18','sherlocks'),(20,'category_id=17','hammers'),(21,'category_id=16','spoons'),(22,'category_id=15','apparel'),(23,'category_id=14','hookahs'),(24,'category_id=13','pendants'),(25,'category_id=11','glass_accessories'),(26,'category_id=10','rig_essentials'),(27,'category_id=9','rigs'),(28,'category_id=8','sculpted_glass'),(29,'category_id=7','glass_art'),(30,'category_id=6','vaporizers'),(31,'category_id=5','waterpipes'),(32,'category_id=4','dry_pipes'),(33,'category_id=3','collab'),(34,'category_id=2','brands'),(35,'manufacturer_id=9','canon'),(36,'manufacturer_id=5','htc'),(37,'manufacturer_id=7','hewlett-packard'),(38,'manufacturer_id=6','palm'),(39,'manufacturer_id=10','sony'),(40,'information_id=6','delivery'),(41,'information_id=3','privacy'),(42,'information_id=5','terms'),(43,'category_id=39','cases'),(44,'category_id=1','artists'),(45,'category_id=12','accessories'),(46,'category_id=26','dabbers'),(47,'category_id=22','domesrig'),(48,'category_id=28','mats'),(49,'category_id=23','nails');
+/*!40000 ALTER TABLE `oc_url_alias` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
 
 
 
