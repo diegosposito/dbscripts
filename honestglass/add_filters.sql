@@ -1,0 +1,200 @@
+#LIMPIAR TABLAS RELACIONADAS A FILTROS
+TRUNCATE TABLE oc_filter_group;
+TRUNCATE TABLE oc_filter_group_description;
+TRUNCATE TABLE oc_filter;
+TRUNCATE TABLE oc_filter_description;
+
+INSERT INTO `oc_filter_group` SET sort_order = '1';
+INSERT INTO oc_filter_group_description SET filter_group_id = '1', language_id = '1', name = 'Location';
+INSERT INTO oc_filter SET filter_group_id = '1', sort_order = '1';
+INSERT INTO oc_filter_description SET filter_id = '1', language_id = '1', filter_group_id = '1', name = 'West Coast';
+INSERT INTO oc_filter SET filter_group_id = '1', sort_order = '2';
+INSERT INTO oc_filter_description SET filter_id = '2', language_id = '1', filter_group_id = '1', name = 'East Coast';
+              
+INSERT INTO `oc_filter_group` SET sort_order = '2';
+INSERT INTO oc_filter_group_description SET filter_group_id = '2', language_id = '1', name = 'School';
+INSERT INTO oc_filter SET filter_group_id = '2', sort_order = '1';
+INSERT INTO oc_filter_description SET filter_id = '3', language_id = '1', filter_group_id = '2', name = 'Old School';
+INSERT INTO oc_filter SET filter_group_id = '2', sort_order = '2';
+INSERT INTO oc_filter_description SET filter_id = '4', language_id = '1', filter_group_id = '2', name = 'New School';
+
+INSERT INTO `oc_filter_group` SET sort_order = '3';
+INSERT INTO oc_filter_group_description SET filter_group_id = '3', language_id = '1', name = 'Hole';
+INSERT INTO oc_filter SET filter_group_id = '3', sort_order = '1';
+INSERT INTO oc_filter_description SET filter_id = '5', language_id = '1', filter_group_id = '3', name = 'Single';
+INSERT INTO oc_filter SET filter_group_id = '3', sort_order = '2';
+INSERT INTO oc_filter_description SET filter_id = '6', language_id = '1', filter_group_id = '3', name = 'Multi';
+
+INSERT INTO `oc_filter_group` SET sort_order = '4';
+INSERT INTO oc_filter_group_description SET filter_group_id = '4', language_id = '1', name = 'Carb';
+INSERT INTO oc_filter SET filter_group_id = '4', sort_order = '1';
+INSERT INTO oc_filter_description SET filter_id = '7', language_id = '1', filter_group_id = '4', name = 'Left';
+INSERT INTO oc_filter SET filter_group_id = '4', sort_order = '2';
+INSERT INTO oc_filter_description SET filter_id = '8', language_id = '1', filter_group_id = '4', name = 'Right';
+
+INSERT INTO `oc_filter_group` SET sort_order = '5';
+INSERT INTO oc_filter_group_description SET filter_group_id = '5', language_id = '1', name = 'Body Style';
+INSERT INTO oc_filter SET filter_group_id = '5', sort_order = '1';
+INSERT INTO oc_filter_description SET filter_id = '9', language_id = '1', filter_group_id = '5', name = 'Breaker';
+INSERT INTO oc_filter SET filter_group_id = '5', sort_order = '2';
+INSERT INTO oc_filter_description SET filter_id = '10', language_id = '1', filter_group_id = '5', name = 'Straight';
+INSERT INTO oc_filter SET filter_group_id = '5', sort_order = '3';
+INSERT INTO oc_filter_description SET filter_id = '11', language_id = '1', filter_group_id = '5', name = 'Bubbler';
+
+INSERT INTO `oc_filter_group` SET sort_order = '6';
+INSERT INTO oc_filter_group_description SET filter_group_id = '6', language_id = '1', name = 'Height';
+INSERT INTO oc_filter SET filter_group_id = '6', sort_order = '1';
+INSERT INTO oc_filter_description SET filter_id = '12', language_id = '1', filter_group_id = '6', name = '&lt;12&quot;';
+INSERT INTO oc_filter SET filter_group_id = '6', sort_order = '2';
+INSERT INTO oc_filter_description SET filter_id = '13', language_id = '1', filter_group_id = '6', name = '12 - 14&quot;';
+INSERT INTO oc_filter SET filter_group_id = '6', sort_order = '3';
+INSERT INTO oc_filter_description SET filter_id = '14', language_id = '1', filter_group_id = '6', name = '15 - 18&quot;';
+INSERT INTO oc_filter SET filter_group_id = '6', sort_order = '4';
+INSERT INTO oc_filter_description SET filter_id = '15', language_id = '1', filter_group_id = '6', name = '18&quot;+';
+
+INSERT INTO `oc_filter_group` SET sort_order = '7';
+INSERT INTO oc_filter_group_description SET filter_group_id = '7', language_id = '1', name = 'Size';
+INSERT INTO oc_filter SET filter_group_id = '7', sort_order = '1';
+INSERT INTO oc_filter_description SET filter_id = '16', language_id = '1', filter_group_id = '7', name = '10mm';
+INSERT INTO oc_filter SET filter_group_id = '7', sort_order = '2';
+INSERT INTO oc_filter_description SET filter_id = '17', language_id = '1', filter_group_id = '7', name = '14mm';
+INSERT INTO oc_filter SET filter_group_id = '7', sort_order = '3';
+INSERT INTO oc_filter_description SET filter_id = '18', language_id = '1', filter_group_id = '7', name = '19mm';
+
+INSERT INTO `oc_filter_group` SET sort_order = '8';
+INSERT INTO oc_filter_group_description SET filter_group_id = '8', language_id = '1', name = 'Perc';
+INSERT INTO oc_filter SET filter_group_id = '8', sort_order = '1';
+INSERT INTO oc_filter_description SET filter_id = '19', language_id = '1', filter_group_id = '8', name = 'Perc On';
+INSERT INTO oc_filter SET filter_group_id = '8', sort_order = '2';
+INSERT INTO oc_filter_description SET filter_id = '20', language_id = '1', filter_group_id = '8', name = 'Perc Off';
+
+INSERT INTO `oc_filter_group` SET sort_order = '9';
+INSERT INTO oc_filter_group_description SET filter_group_id = '9', language_id = '1', name = '9mil';
+INSERT INTO oc_filter SET filter_group_id = '9', sort_order = '1';
+INSERT INTO oc_filter_description SET filter_id = '21', language_id = '1', filter_group_id = '9', name = '9 mil On';
+INSERT INTO oc_filter SET filter_group_id = '9', sort_order = '2';
+INSERT INTO oc_filter_description SET filter_id = '22', language_id = '1', filter_group_id = '9', name = '9 mil Off';
+
+INSERT INTO `oc_filter_group` SET sort_order = '10';
+INSERT INTO oc_filter_group_description SET filter_group_id = '10', language_id = '1', name = 'Recycler';
+INSERT INTO oc_filter SET filter_group_id = '10', sort_order = '1';
+INSERT INTO oc_filter_description SET filter_id = '23', language_id = '1', filter_group_id = '10', name = 'Recycler On';
+INSERT INTO oc_filter SET filter_group_id = '10', sort_order = '2';
+INSERT INTO oc_filter_description SET filter_id = '24', language_id = '1', filter_group_id = '10', name = 'Recycler Off';
+
+INSERT INTO `oc_filter_group` SET sort_order = '11';
+INSERT INTO oc_filter_group_description SET filter_group_id = '11', language_id = '1', name = 'Domeless';
+INSERT INTO oc_filter SET filter_group_id = '11', sort_order = '1';
+INSERT INTO oc_filter_description SET filter_id = '25', language_id = '1', filter_group_id = '11', name = 'Domeless';
+INSERT INTO oc_filter SET filter_group_id = '11', sort_order = '2';
+INSERT INTO oc_filter_description SET filter_id = '26', language_id = '1', filter_group_id = '11', name = 'Dome';
+
+INSERT INTO `oc_filter_group` SET sort_order = '12';
+INSERT INTO oc_filter_group_description SET filter_group_id = '12', language_id = '1', name = 'Combo';
+INSERT INTO oc_filter SET filter_group_id = '12', sort_order = '1';
+INSERT INTO oc_filter_description SET filter_id = '27', language_id = '1', filter_group_id = '12', name = '14-10';
+INSERT INTO oc_filter SET filter_group_id = '12', sort_order = '2';
+INSERT INTO oc_filter_description SET filter_id = '28', language_id = '1', filter_group_id = '12', name = '14-14';
+INSERT INTO oc_filter SET filter_group_id = '12', sort_order = '3';
+INSERT INTO oc_filter_description SET filter_id = '29', language_id = '1', filter_group_id = '12', name = '14-19';
+INSERT INTO oc_filter SET filter_group_id = '12', sort_order = '4';
+INSERT INTO oc_filter_description SET filter_id = '30', language_id = '1', filter_group_id = '12', name = '19-14';
+INSERT INTO oc_filter SET filter_group_id = '12', sort_order = '5';
+INSERT INTO oc_filter_description SET filter_id = '31', language_id = '1', filter_group_id = '12', name = '19-19';
+INSERT INTO oc_filter SET filter_group_id = '12', sort_order = '6';
+INSERT INTO oc_filter_description SET filter_id = '32', language_id = '1', filter_group_id = '12', name = '10-10';
+INSERT INTO oc_filter SET filter_group_id = '12', sort_order = '7';
+INSERT INTO oc_filter_description SET filter_id = '33', language_id = '1', filter_group_id = '12', name = '10-14';
+
+INSERT INTO `oc_filter_group` SET sort_order = '13';
+INSERT INTO oc_filter_group_description SET filter_group_id = '13', language_id = '1', name = 'Degree';
+INSERT INTO oc_filter SET filter_group_id = '13', sort_order = '1';
+INSERT INTO oc_filter_description SET filter_id = '34', language_id = '1', filter_group_id = '13', name = '45';
+INSERT INTO oc_filter SET filter_group_id = '13', sort_order = '2';
+INSERT INTO oc_filter_description SET filter_id = '35', language_id = '1', filter_group_id = '13', name = '90';
+
+INSERT INTO `oc_filter_group` SET sort_order = '14';
+INSERT INTO oc_filter_group_description SET filter_group_id = '14', language_id = '1', name = 'Piece';
+INSERT INTO oc_filter SET filter_group_id = '14', sort_order = '1';
+INSERT INTO oc_filter_description SET filter_id = '36', language_id = '1', filter_group_id = '14', name = '2';
+INSERT INTO oc_filter SET filter_group_id = '14', sort_order = '2';
+INSERT INTO oc_filter_description SET filter_id = '37', language_id = '1', filter_group_id = '14', name = '3';
+INSERT INTO oc_filter SET filter_group_id = '14', sort_order = '3';
+INSERT INTO oc_filter_description SET filter_id = '38', language_id = '1', filter_group_id = '14', name = '4';
+
+INSERT INTO `oc_filter_group` SET sort_order = '15';
+INSERT INTO oc_filter_group_description SET filter_group_id = '15', language_id = '1', name = 'Hoses';
+INSERT INTO oc_filter SET filter_group_id = '15', sort_order = '1';
+INSERT INTO oc_filter_description SET filter_id = '39', language_id = '1', filter_group_id = '15', name = '1';
+INSERT INTO oc_filter SET filter_group_id = '15', sort_order = '2';
+INSERT INTO oc_filter_description SET filter_id = '40', language_id = '1', filter_group_id = '15', name = '2';
+INSERT INTO oc_filter SET filter_group_id = '15', sort_order = '3';
+INSERT INTO oc_filter_description SET filter_id = '41', language_id = '1', filter_group_id = '15', name = '3';
+INSERT INTO oc_filter SET filter_group_id = '15', sort_order = '4';
+INSERT INTO oc_filter_description SET filter_id = '42', language_id = '1', filter_group_id = '15', name = '4+';
+
+INSERT INTO `oc_filter_group` SET sort_order = '16';
+INSERT INTO oc_filter_group_description SET filter_group_id = '16', language_id = '1', name = 'Style';
+INSERT INTO oc_filter SET filter_group_id = '16', sort_order = '1';
+INSERT INTO oc_filter_description SET filter_id = '43', language_id = '1', filter_group_id = '16', name = 'Regular';
+INSERT INTO oc_filter SET filter_group_id = '16', sort_order = '2';
+INSERT INTO oc_filter_description SET filter_id = '44', language_id = '1', filter_group_id = '16', name = 'Dropdown';
+INSERT INTO oc_filter SET filter_group_id = '16', sort_order = '3';
+INSERT INTO oc_filter_description SET filter_id = '45', language_id = '1', filter_group_id = '16', name = 'Clear';
+INSERT INTO oc_filter SET filter_group_id = '16', sort_order = '4';
+INSERT INTO oc_filter_description SET filter_id = '46', language_id = '1', filter_group_id = '16', name = 'Worked';
+INSERT INTO oc_filter SET filter_group_id = '16', sort_order = '5';
+INSERT INTO oc_filter_description SET filter_id = '47', language_id = '1', filter_group_id = '16', name = 'Hard';
+INSERT INTO oc_filter SET filter_group_id = '16', sort_order = '6';
+INSERT INTO oc_filter_description SET filter_id = '48', language_id = '1', filter_group_id = '16', name = 'Soft';
+INSERT INTO oc_filter SET filter_group_id = '16', sort_order = '7';
+INSERT INTO oc_filter_description SET filter_id = '49', language_id = '1', filter_group_id = '16', name = 'Non-Functional';
+INSERT INTO oc_filter SET filter_group_id = '16', sort_order = '8';
+INSERT INTO oc_filter_description SET filter_id = '50', language_id = '1', filter_group_id = '16', name = 'Functional';
+
+INSERT INTO `oc_filter_group` SET sort_order = '17';
+INSERT INTO oc_filter_group_description SET filter_group_id = '17', language_id = '1', name = 'Types';
+INSERT INTO oc_filter SET filter_group_id = '17', sort_order = '1';
+INSERT INTO oc_filter_description SET filter_id = '51', language_id = '1', filter_group_id = '17', name = 'Dry Pipes';
+INSERT INTO oc_filter SET filter_group_id = '17', sort_order = '2';
+INSERT INTO oc_filter_description SET filter_id = '52', language_id = '1', filter_group_id = '17', name = 'Waterpipes';
+INSERT INTO oc_filter SET filter_group_id = '17', sort_order = '3';
+INSERT INTO oc_filter_description SET filter_id = '53', language_id = '1', filter_group_id = '17', name = 'Rigs';
+INSERT INTO oc_filter SET filter_group_id = '17', sort_order = '4';
+INSERT INTO oc_filter_description SET filter_id = '54', language_id = '1', filter_group_id = '17', name = 'Glass Accessories';
+INSERT INTO oc_filter SET filter_group_id = '17', sort_order = '5';
+INSERT INTO oc_filter_description SET filter_id = '55', language_id = '1', filter_group_id = '17', name = 'Sculpted';
+INSERT INTO oc_filter SET filter_group_id = '17', sort_order = '6';
+INSERT INTO oc_filter_description SET filter_id = '56', language_id = '1', filter_group_id = '17', name = 'Non-Functional';
+INSERT INTO oc_filter SET filter_group_id = '17', sort_order = '7';
+INSERT INTO oc_filter_description SET filter_id = '57', language_id = '1', filter_group_id = '17', name = 'Scientific';
+INSERT INTO oc_filter SET filter_group_id = '17', sort_order = '8';
+INSERT INTO oc_filter_description SET filter_id = '58', language_id = '1', filter_group_id = '17', name = 'Worked';
+INSERT INTO oc_filter SET filter_group_id = '17', sort_order = '9';
+INSERT INTO oc_filter_description SET filter_id = '59', language_id = '1', filter_group_id = '17', name = 'Vapor Pens';
+INSERT INTO oc_filter SET filter_group_id = '17', sort_order = '10';
+INSERT INTO oc_filter_description SET filter_id = '60', language_id = '1', filter_group_id = '17', name = 'Vapor Pen Accessories';
+INSERT INTO oc_filter SET filter_group_id = '17', sort_order = '11';
+INSERT INTO oc_filter_description SET filter_id = '61', language_id = '1', filter_group_id = '17', name = 'Portable';
+INSERT INTO oc_filter SET filter_group_id = '17', sort_order = '12';
+INSERT INTO oc_filter_description SET filter_id = '62', language_id = '1', filter_group_id = '17', name = 'Stationary';
+INSERT INTO oc_filter SET filter_group_id = '17', sort_order = '13';
+INSERT INTO oc_filter_description SET filter_id = '63', language_id = '1', filter_group_id = '17', name = 'Accessories';
+
+update oc_filter_group set sort_order= 1 where filter_group_id=17;
+update oc_filter_group set sort_order= 2 where filter_group_id=1;
+update oc_filter_group set sort_order= 3 where filter_group_id=2;
+update oc_filter_group set sort_order= 4 where filter_group_id=5;
+update oc_filter_group set sort_order= 5 where filter_group_id=6;
+update oc_filter_group set sort_order= 6 where filter_group_id=16;
+update oc_filter_group set sort_order= 7 where filter_group_id=7;
+update oc_filter_group set sort_order= 8 where filter_group_id=3;
+update oc_filter_group set sort_order= 9 where filter_group_id=4;
+update oc_filter_group set sort_order= 10 where filter_group_id=8;
+update oc_filter_group set sort_order= 11 where filter_group_id=10;
+update oc_filter_group set sort_order= 12 where filter_group_id=9;
+update oc_filter_group set sort_order= 13 where filter_group_id=13;
+update oc_filter_group set sort_order= 14 where filter_group_id=11;
+update oc_filter_group set sort_order= 15 where filter_group_id=12;
+update oc_filter_group set sort_order= 16 where filter_group_id=14;
+update oc_filter_group set sort_order= 17 where filter_group_id=15;
