@@ -1,3 +1,5 @@
-drop database opencart;
+CREATE DATABASE IF NOT EXISTS opencart;
 
-create database opencart; 
+DROP DATABASE opencart;
+
+CREATE DATABASE opencart; 
