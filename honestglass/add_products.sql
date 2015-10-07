@@ -612,3 +612,108 @@ INSERT INTO `oc_ms_product` VALUES (94,2,0,1,1,NULL,5.0000);
 INSERT INTO `oc_ms_product` VALUES (95,2,0,1,1,NULL,5.0000);
 UNLOCK TABLES;
 
+# Actualizar informacion en campos meta*
+UPDATE oc_product_description SET meta_title=tag, meta_description=tag, meta_keyword=tag WHERE product_id <=96;
+
+#Agregar SEO urls para productos
+
+
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (46,'product_id=1','1-roor-18-inch');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (47,'product_id=2','2-hammer-6');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (48,'product_id=3','3-benny-water-pipe-17');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (49,'product_id=4','4-nonfunctional-brand-glass');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (50,'product_id=5','5-spoons-dry-pipe');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (51,'product_id=6','6-hammer-7');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (52,'product_id=7','7-spoons-dry-pipe-2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (53,'product_id=8','8-sherlock-2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (54,'product_id=9','9-black-sidecar');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (55,'product_id=10','10-sidecars-dry-pipe-2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (56,'product_id=11','11-steamroller-');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (57,'product_id=12','12-chillums-onies-dry-pipe');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (58,'product_id=13','13-spooner-st');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (59,'product_id=14','14-artist-case');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (60,'product_id=15','15-artist-pipe-lego');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (61,'product_id=16','16-waterpipes-hookah');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (62,'product_id=17','17-waterpipe--1');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (63,'product_id=18','18-waterpipe-hookah-2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (64,'product_id=19','19-waterpipe-3');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (65,'product_id=20','20-brand-water-dry-pipe');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (66,'product_id=21','21-brand-water-dry-pipe');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (67,'product_id=22','22-sculpted-flower');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (68,'product_id=23','23-vaporizers-pen-accessories');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (69,'product_id=24','24-rigs-scientific');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (70,'product_id=25','25-rigs-worked');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (71,'product_id=26','26-rigs-scientific2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (72,'product_id=27','27-rigs-worked-2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (73,'product_id=28','28-rig-essentials-domes');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (74,'product_id=29','29-rig-domes-2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (75,'product_id=30','30-rig-essentials-domes3');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (76,'product_id=31','31-rig-nails');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (77,'product_id=32','32-rig-essentials-nails1');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (78,'product_id=33','33-rig-adaptors');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (79,'product_id=34','34-rig-essentials-adaptors1');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (80,'product_id=35','35-rig-mat');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (81,'product_id=36','36-rig-essentials2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (82,'product_id=37','37-rig-torches');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (83,'product_id=38','38-rig-essentials-torches2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (84,'product_id=39','39-glass-slides');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (85,'product_id=40','40-down-stem-with-diffuser');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (86,'product_id=41','41-glass-screens');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (87,'product_id=42','42-glass-accessories-ash-catchers1');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (88,'product_id=43','43-glass-adaptors-1');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (89,'product_id=44','44-glass-accessories-domes1');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (90,'product_id=45','45-glass-jars');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (91,'product_id=46','46-accessories-grinders');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (92,'product_id=47','47-grinders-2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (93,'product_id=48','48-accessories-grinders2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (94,'product_id=49','49-grinders-4');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (95,'product_id=50','50-accessories-grinders5');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (96,'product_id=51','51-pollen-boxes');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (97,'product_id=52','52-accessories-pollen-boxes2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (98,'product_id=53','53-cases');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (99,'product_id=54','54-accessories-cases2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (100,'product_id=55','55-cases-3');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (101,'product_id=56','56-accessories-cases4');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (102,'product_id=57','57-honey-pendants');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (103,'product_id=58','58-pendants2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (104,'product_id=59','59-blue-pendants');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (105,'product_id=60','60-pendants3');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (106,'product_id=61','61-hookahs1');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (107,'product_id=62','62-hookahs2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (108,'product_id=63','63-hookahs3');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (109,'product_id=64','64-hookahs4');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (110,'product_id=65','65-apparel');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (111,'product_id=66','66-glass-accessories-slides2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (112,'product_id=67','67-glass-slides-3');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (113,'product_id=68','68-glass-accessories-slides4');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (114,'product_id=69','69-glass-down-stems-2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (115,'product_id=70','70-glass-accessories-ash-catchers2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (116,'product_id=71','71-glass-ash-catcher-3');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (117,'product_id=72','72-glass-accessories-adaptors2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (118,'product_id=73','73-glass-domes-2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (119,'product_id=74','74-glass-accessories-jars2');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (120,'product_id=75','75-glass-cleaner');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (121,'product_id=76','76-glass-accessories-adaptors3');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (122,'product_id=77','77-glass-adaptors-4');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (123,'product_id=78','78-glass-adaptors-6');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (124,'product_id=79','79-glass-and-steel-adaptor');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (125,'product_id=80','80-glass-domes-3');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (126,'product_id=81','81-load-inventory1');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (127,'product_id=82','82-load-inventory3');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (128,'product_id=83','83-load-inventory-4');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (129,'product_id=84','84-sl65');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (130,'product_id=85','85-devil-eyed');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (131,'product_id=86','86-coy-toy');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (132,'product_id=87','87-dragon-steelo');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (133,'product_id=88','88-filthy-illa');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (134,'product_id=89','89-gilly-the-kid');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (135,'product_id=90','90-bubba');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (136,'product_id=91','91-multi-nails');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (137,'product_id=92','92-roor-fatty');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (138,'product_id=93','93-green-monster');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (139,'product_id=94','94-blue-pipe-artist');
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (140,'product_id=95','95-hammer-time');
+
+
+
+
