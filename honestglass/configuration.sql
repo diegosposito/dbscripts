@@ -31,6 +31,11 @@ ALTER TABLE `oc_ms_order_product_data` ADD COLUMN `seller_final_amt` decimal(15,
 #hacer productos shippeables
 UPDATE oc_setting set value = 1 WHERE code='msconf' AND `key`='msconf_enable_shipping';
 
+#actualiza el shipping para que sean free y percentage
+DELETE FROM oc_extension WHERE `type` = 'shipping' AND `code` = 'flat';
+INSERT INTO oc_extension SET `type` = 'shipping', `code` = 'free';
+INSERT INTO oc_extension SET `type` = 'shipping', `code` = 'percentage';
+
 
 # Esto es para asociar los productos al seller 1, para que se puedan visualizar
 #INSERT INTO oc_ms_product SELECT product_id, 1, 0, 1, 1, NULL, 0 FROM oc_product
