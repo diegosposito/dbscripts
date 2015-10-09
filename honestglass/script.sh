@@ -1,5 +1,3 @@
-mysql -uroot -proot911 $1 < dropdb.sql
-
 mysql -uroot -proot911 $1 < base.sql
 
 mysql -uroot -proot911 $1 < script.sql
