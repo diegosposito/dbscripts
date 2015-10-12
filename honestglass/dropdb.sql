@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS opencart;
-
 DROP DATABASE opencart;
-
 CREATE DATABASE opencart; 
+
+DROP DATABASE honestg;
+CREATE DATABASE honestg; 
