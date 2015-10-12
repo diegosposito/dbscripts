@@ -65,6 +65,8 @@
 		`product_validation` tinyint(4) NOT NULL DEFAULT '1',
 		`seller_group` int(11) NOT NULL DEFAULT '1',
 		`commission_id` int(11) DEFAULT NULL,
+		`seller_international_shipping` tinyint(4) NOT NULL DEFAULT '0',
+		`seller_per_amt` decimal(15,4) NOT NULL DEFAULT '0',
 		PRIMARY KEY (`seller_id`)) default CHARSET=utf8;
 
 		CREATE TABLE `oc_ms_balance` (
