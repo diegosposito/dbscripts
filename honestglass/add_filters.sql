@@ -62,21 +62,21 @@ INSERT INTO oc_filter SET filter_group_id = '7', sort_order = '3';
 INSERT INTO oc_filter_description SET filter_id = '18', language_id = '1', filter_group_id = '7', name = '19mm';
 
 INSERT INTO `oc_filter_group` SET sort_order = '8';
-INSERT INTO oc_filter_group_description SET filter_group_id = '8', language_id = '1', name = 'Perc';
+INSERT INTO oc_filter_group_description SET filter_group_id = '8', language_id = '1', name = 'Perc on/off';
 INSERT INTO oc_filter SET filter_group_id = '8', sort_order = '1';
 INSERT INTO oc_filter_description SET filter_id = '19', language_id = '1', filter_group_id = '8', name = 'Perc On';
 INSERT INTO oc_filter SET filter_group_id = '8', sort_order = '2';
 INSERT INTO oc_filter_description SET filter_id = '20', language_id = '1', filter_group_id = '8', name = 'Perc Off';
 
 INSERT INTO `oc_filter_group` SET sort_order = '9';
-INSERT INTO oc_filter_group_description SET filter_group_id = '9', language_id = '1', name = '9mil';
+INSERT INTO oc_filter_group_description SET filter_group_id = '9', language_id = '1', name = '9mil on/off';
 INSERT INTO oc_filter SET filter_group_id = '9', sort_order = '1';
 INSERT INTO oc_filter_description SET filter_id = '21', language_id = '1', filter_group_id = '9', name = '9 mil On';
 INSERT INTO oc_filter SET filter_group_id = '9', sort_order = '2';
 INSERT INTO oc_filter_description SET filter_id = '22', language_id = '1', filter_group_id = '9', name = '9 mil Off';
 
 INSERT INTO `oc_filter_group` SET sort_order = '10';
-INSERT INTO oc_filter_group_description SET filter_group_id = '10', language_id = '1', name = 'Recycler';
+INSERT INTO oc_filter_group_description SET filter_group_id = '10', language_id = '1', name = 'Recycler on/off';
 INSERT INTO oc_filter SET filter_group_id = '10', sort_order = '1';
 INSERT INTO oc_filter_description SET filter_id = '23', language_id = '1', filter_group_id = '10', name = 'Recycler On';
 INSERT INTO oc_filter SET filter_group_id = '10', sort_order = '2';
