@@ -82,3 +82,14 @@ UPDATE oc_ms_seller
                                 WHERE seller_id = 2;
 
 
+# AGREGAR BUYER 1
+INSERT INTO oc_customer SET customer_group_id = '1', store_id = '0', firstname = 'buyer1', lastname = 'buyer1', email = 'buyer1@gmail.com', telephone = '123123123', fax = '123', custom_field = '', salt = '365591f3b', password ='9a048dfde3b0c8df7a79ba2f8d9c4e594a70aabc', newsletter = '0', ip = '127.0.0.1', status = '1', approved = '1', date_added = NOW();
+
+INSERT INTO oc_address SET customer_id = '1', firstname = 'buyer1', lastname = 'buyer1', company = 'company1', address_1 = 'Quebec 123', address_2 = '', city = 'Quebec', postcode = '456', country_id = '38', zone_id = '612', custom_field = '';
+
+UPDATE oc_customer SET address_id = '1' WHERE customer_id = '1';
+DELETE FROM `oc_customer_login` WHERE email = 'buyer1@gmail.com';
+
+UPDATE oc_customer SET ip = '127.0.0.1' WHERE customer_id = '1';
+INSERT INTO `oc_customer_activity` SET `customer_id` = '1', `key` = 'register', `data` = 'a:2:{s:11:\"customer_id\";i:1;s:4:\"name\";s:13:\"buyer1 buyer1\";}', `ip` = '127.0.0.1', `date_added` = NOW();
+INSERT INTO oc_customer_ip SET customer_id = '1', ip = '127.0.0.1', date_added = NOW();
