@@ -1,3 +1,6 @@
+mysqladmin -uroot -proot911 DROP $1
+mysqladmin -uroot -proot911 CREATE $1
+
 mysql -uroot -proot911 $1 < base.sql
 
 mysql -uroot -proot911 $1 < script.sql
