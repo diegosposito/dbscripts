@@ -23,6 +23,7 @@ CREATE TABLE `oc_product_customer_liked` (
 ALTER TABLE oc_product ADD COLUMN `featured` tinyint(1) NOT NULL DEFAULT '0';
 
 ALTER TABLE oc_ms_product ADD COLUMN `percentage` decimal(15,4) NOT NULL DEFAULT '0.0000';
+ALTER TABLE oc_ms_product ADD COLUMN `seller_international_shipping` tinyint(4) NOT NULL DEFAULT '0';
 
 #campos necesarios para que la orden del vendedor se calcule bien
 ALTER TABLE `oc_ms_order_product_data` ADD COLUMN `seller_per_amt` decimal(15,4) NOT NULL;
