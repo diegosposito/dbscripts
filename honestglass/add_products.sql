@@ -617,7 +617,7 @@ UPDATE oc_product_description SET meta_title=tag, meta_description=tag, meta_key
 
 #Agregar SEO urls para productos
 
-
+/*
 INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (46,'product_id=1','1-roor-18-inch');
 INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (47,'product_id=2','2-hammer-6');
 INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (48,'product_id=3','3-benny-water-pipe-17');
@@ -716,4 +716,4 @@ INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (140,'product_id=95
 
 
 
-
+*/
