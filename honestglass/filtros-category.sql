@@ -274,6 +274,33 @@ LOCK TABLES `oc_category_filter` WRITE;
 INSERT INTO `oc_category_filter` VALUES (5,1),(5,2),(5,9),(5,10),(5,11),(5,12),(5,13),(5,14),(5,15),(5,16),(5,17),(5,18),(5,19),(5,20),(5,21),(5,22),(5,57),(5,58),(6,59),(6,60),(6,61),(6,62),(6,63),(7,1),(7,2),(8,1),(8,2),(9,16),(9,17),(9,18),(9,19),(9,20),(9,23),(9,24),(9,57),(9,58),(13,49),(13,50),(14,39),(14,40),(14,41),(14,42),(16,1),(16,2),(16,5),(16,6),(16,7),(16,8),(17,1),(17,2),(17,5),(17,6),(17,7),(17,8),(18,1),(18,2),(18,5),(18,6),(18,7),(18,8),(19,1),(19,2),(19,5),(19,6),(19,7),(19,8),(20,1),(20,2),(21,1),(21,2),(22,16),(22,17),(22,18),(23,16),(23,17),(23,18),(23,25),(23,26),(24,27),(24,28),(24,29),(24,30),(24,31),(24,32),(24,33),(24,43),(24,44),(29,5),(29,6),(29,16),(29,17),(29,18),(29,45),(29,46),(30,30),(30,31),(30,45),(30,46),(32,17),(32,18),(32,34),(32,35),(33,27),(33,28),(33,29),(33,30),(33,31),(33,32),(33,33),(33,43),(33,44),(34,16),(34,17),(34,18),(37,36),(37,37),(37,38),(39,47),(39,48);
 /*!40000 ALTER TABLE `oc_category_filter` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Table structure for table `oc_url_alias`
+--
+
+DROP TABLE IF EXISTS `oc_url_alias`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `oc_url_alias` (
+  `url_alias_id` int(11) NOT NULL AUTO_INCREMENT,
+  `query` varchar(255) NOT NULL,
+  `keyword` varchar(255) NOT NULL,
+  PRIMARY KEY (`url_alias_id`),
+  KEY `query` (`query`),
+  KEY `keyword` (`keyword`)
+) ENGINE=MyISAM AUTO_INCREMENT=141 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `oc_url_alias`
+--
+
+LOCK TABLES `oc_url_alias` WRITE;
+/*!40000 ALTER TABLE `oc_url_alias` DISABLE KEYS */;
+INSERT INTO `oc_url_alias` VALUES (1,'category_id=38','pollenboxes'),(2,'category_id=37','grinders'),(3,'category_id=36','cleaner'),(4,'information_id=4','about_us'),(5,'category_id=35','jars'),(6,'category_id=34','domes'),(7,'category_id=33','adaptors'),(8,'category_id=32','ash-catchers'),(9,'category_id=31','glass-screens'),(10,'category_id=30','down-stems'),(11,'category_id=29','slides'),(12,'category_id=27','torches'),(13,'category_id=25','silicon-jars'),(14,'category_id=24','adaptorsrig'),(15,'category_id=21','chillums'),(16,'category_id=20','steamrollers'),(17,'category_id=19','sidecars'),(18,'category_id=18','sherlocks'),(19,'category_id=17','hammers'),(20,'category_id=16','spoons'),(21,'category_id=15','apparel'),(22,'category_id=14','hookahs'),(23,'category_id=13','pendants'),(24,'category_id=11','glass-accessories'),(25,'category_id=10','rig-essentials'),(26,'category_id=9','rigs'),(27,'category_id=8','sculpted-glass'),(28,'category_id=7','glass-art'),(29,'category_id=6','vaporizers'),(30,'category_id=5','waterpipes'),(31,'category_id=4','dry-pipes'),(32,'category_id=3','collab'),(33,'category_id=2','brands'),(34,'information_id=6','delivery'),(35,'information_id=3','privacy'),(36,'information_id=5','terms'),(37,'category_id=39','cases'),(38,'category_id=1','artists'),(39,'category_id=12','accessories'),(40,'category_id=26','dabbers'),(41,'category_id=22','domesrig'),(42,'category_id=28','mats'),(43,'category_id=23','nails'),(44,'seller_id=1','seller1'),(45,'seller_id=2','seller2'),(46,'product_id=1','1-roor-18-inch'),(47,'product_id=2','2-hammer-6'),(48,'product_id=3','3-benny-water-pipe-17'),(49,'product_id=4','4-nonfunctional-brand-glass'),(50,'product_id=5','5-spoons-dry-pipe'),(51,'product_id=6','6-hammer-7'),(52,'product_id=7','7-spoons-dry-pipe-2'),(53,'product_id=8','8-sherlock-2'),(54,'product_id=9','9-black-sidecar'),(55,'product_id=10','10-sidecars-dry-pipe-2'),(56,'product_id=11','11-steamroller-'),(57,'product_id=12','12-chillums-onies-dry-pipe'),(58,'product_id=13','13-spooner-st'),(59,'product_id=14','14-artist-case'),(60,'product_id=15','15-artist-pipe-lego'),(61,'product_id=16','16-waterpipes-hookah'),(62,'product_id=17','17-waterpipe--1'),(63,'product_id=18','18-waterpipe-hookah-2'),(64,'product_id=19','19-waterpipe-3'),(65,'product_id=20','20-brand-water-dry-pipe'),(66,'product_id=21','21-brand-water-dry-pipe'),(67,'product_id=22','22-sculpted-flower'),(68,'product_id=23','23-vaporizers-pen-accessories'),(69,'product_id=24','24-rigs-scientific'),(70,'product_id=25','25-rigs-worked'),(71,'product_id=26','26-rigs-scientific2'),(72,'product_id=27','27-rigs-worked-2'),(73,'product_id=28','28-rig-essentials-domes'),(74,'product_id=29','29-rig-domes-2'),(75,'product_id=30','30-rig-essentials-domes3'),(76,'product_id=31','31-rig-nails'),(77,'product_id=32','32-rig-essentials-nails1'),(78,'product_id=33','33-rig-adaptors'),(79,'product_id=34','34-rig-essentials-adaptors1'),(80,'product_id=35','35-rig-mat'),(81,'product_id=36','36-rig-essentials2'),(82,'product_id=37','37-rig-torches'),(83,'product_id=38','38-rig-essentials-torches2'),(84,'product_id=39','39-glass-slides'),(85,'product_id=40','40-down-stem-with-diffuser'),(86,'product_id=41','41-glass-screens'),(87,'product_id=42','42-glass-accessories-ash-catchers1'),(88,'product_id=43','43-glass-adaptors-1'),(89,'product_id=44','44-glass-accessories-domes1'),(90,'product_id=45','45-glass-jars'),(91,'product_id=46','46-accessories-grinders'),(92,'product_id=47','47-grinders-2'),(93,'product_id=48','48-accessories-grinders2'),(94,'product_id=49','49-grinders-4'),(95,'product_id=50','50-accessories-grinders5'),(96,'product_id=51','51-pollen-boxes'),(97,'product_id=52','52-accessories-pollen-boxes2'),(98,'product_id=53','53-cases'),(99,'product_id=54','54-accessories-cases2'),(100,'product_id=55','55-cases-3'),(101,'product_id=56','56-accessories-cases4'),(102,'product_id=57','57-honey-pendants'),(103,'product_id=58','58-pendants2'),(104,'product_id=59','59-blue-pendants'),(105,'product_id=60','60-pendants3'),(106,'product_id=61','61-hookahs1'),(107,'product_id=62','62-hookahs2'),(108,'product_id=63','63-hookahs3'),(109,'product_id=64','64-hookahs4'),(110,'product_id=65','65-apparel'),(111,'product_id=66','66-glass-accessories-slides2'),(112,'product_id=67','67-glass-slides-3'),(113,'product_id=68','68-glass-accessories-slides4'),(114,'product_id=69','69-glass-down-stems-2'),(115,'product_id=70','70-glass-accessories-ash-catchers2'),(116,'product_id=71','71-glass-ash-catcher-3'),(117,'product_id=72','72-glass-accessories-adaptors2'),(118,'product_id=73','73-glass-domes-2'),(119,'product_id=74','74-glass-accessories-jars2'),(120,'product_id=75','75-glass-cleaner'),(121,'product_id=76','76-glass-accessories-adaptors3'),(122,'product_id=77','77-glass-adaptors-4'),(123,'product_id=78','78-glass-adaptors-6'),(124,'product_id=79','79-glass-and-steel-adaptor'),(125,'product_id=80','80-glass-domes-3'),(126,'product_id=81','81-load-inventory1'),(127,'product_id=82','82-load-inventory3'),(128,'product_id=83','83-load-inventory-4'),(129,'product_id=84','84-sl65'),(130,'product_id=85','85-devil-eyed'),(131,'product_id=86','86-coy-toy'),(132,'product_id=87','87-dragon-steelo'),(133,'product_id=88','88-filthy-illa'),(134,'product_id=89','89-gilly-the-kid'),(135,'product_id=90','90-bubba'),(136,'product_id=91','91-multi-nails'),(137,'product_id=92','92-roor-fatty'),(138,'product_id=93','93-green-monster'),(139,'product_id=94','94-blue-pipe-artist'),(140,'product_id=95','95-hammer-time');
+/*!40000 ALTER TABLE `oc_url_alias` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -284,4 +311,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-10-27 18:43:42
+-- Dump completed on 2015-10-27 19:26:04
