@@ -17,7 +17,7 @@ INSERT INTO oc_ms_seller
                                         country_id = 0,
                                         zone_id = 0,
                                         commission_id = NULL,
-                                        product_validation = 0,
+                                        product_validation = 2,
                                         paypal = '', 
                                         avatar = '',
                                         banner = '',
@@ -34,7 +34,7 @@ UPDATE oc_ms_seller
                                         seller_status = '1',
                                         zone_id = 0,
                                         seller_approved = '1',
-                                        product_validation = '1',
+                                        product_validation = '2',
                                         commission_id = NULL,
                                         seller_group = '1'
                                 WHERE seller_id = 1;
@@ -59,7 +59,7 @@ INSERT INTO oc_ms_seller
                                         country_id = 0,
                                         zone_id = 0,
                                         commission_id = NULL,
-                                        product_validation = 0,
+                                        product_validation = 2,
                                         paypal = '',
                                         avatar = '',
                                         banner = '',
@@ -76,7 +76,7 @@ UPDATE oc_ms_seller
                                         seller_status = '1',
                                         zone_id = 0,
                                         seller_approved = '1',
-                                        product_validation = '1',
+                                        product_validation = '2',
                                         commission_id = NULL,
                                         seller_group = '1'
                                 WHERE seller_id = 2;
