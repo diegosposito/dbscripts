@@ -62,7 +62,7 @@
 		`date_created` DATETIME NOT NULL,
 		`seller_status` TINYINT NOT NULL,
 		`seller_approved` TINYINT NOT NULL,
-		`product_validation` tinyint(4) NOT NULL DEFAULT '1',
+		`product_validation` tinyint(4) NOT NULL DEFAULT '2',
 		`seller_group` int(11) NOT NULL DEFAULT '1',
 		`commission_id` int(11) DEFAULT NULL,
 		`seller_international_shipping` tinyint(4) NOT NULL DEFAULT '0',
