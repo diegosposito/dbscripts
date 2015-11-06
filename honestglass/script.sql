@@ -214,6 +214,8 @@
 		PRIMARY KEY (`suborder_history_id`)
 		) DEFAULT CHARSET=utf8;
 
+		ALTER TABLE `oc_review` ADD COLUMN `seller_id` int(11) NOT NULL;
+
 		  INSERT INTO oc_ms_db_schema (major, minor, build, revision, date_applied) VALUES(1,0,2,1, NOW());
 		  INSERT INTO oc_ms_commission () VALUES();
 		  INSERT INTO `oc_ms_commission_rate` (rate_type, commission_id, flat, percent, payment_method) VALUES(1, 1, 0,0,1);
