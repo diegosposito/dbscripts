@@ -235,7 +235,7 @@ CREATE TABLE `oc_attribute` (
 
 LOCK TABLES `oc_attribute` WRITE;
 /*!40000 ALTER TABLE `oc_attribute` DISABLE KEYS */;
-INSERT INTO `oc_attribute` VALUES (1,6,1),(2,6,5),(3,6,3),(4,3,1),(5,3,2),(6,3,3),(7,3,4),(8,3,5),(9,3,6),(10,3,7),(11,3,8);
+INSERT INTO `oc_attribute` VALUES (12,7,0);
 /*!40000 ALTER TABLE `oc_attribute` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -260,7 +260,7 @@ CREATE TABLE `oc_attribute_description` (
 
 LOCK TABLES `oc_attribute_description` WRITE;
 /*!40000 ALTER TABLE `oc_attribute_description` DISABLE KEYS */;
-INSERT INTO `oc_attribute_description` VALUES (1,1,'Description'),(2,1,'No. of Cores'),(4,1,'test 1'),(5,1,'test 2'),(6,1,'test 3'),(7,1,'test 4'),(8,1,'test 5'),(9,1,'test 6'),(10,1,'test 7'),(11,1,'test 8'),(3,1,'Clockspeed');
+INSERT INTO `oc_attribute_description` VALUES (12,1,'Ships within');
 /*!40000 ALTER TABLE `oc_attribute_description` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -284,7 +284,7 @@ CREATE TABLE `oc_attribute_group` (
 
 LOCK TABLES `oc_attribute_group` WRITE;
 /*!40000 ALTER TABLE `oc_attribute_group` DISABLE KEYS */;
-INSERT INTO `oc_attribute_group` VALUES (3,2),(4,1),(5,3),(6,4);
+INSERT INTO `oc_attribute_group` VALUES (7,0);
 /*!40000 ALTER TABLE `oc_attribute_group` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -309,7 +309,7 @@ CREATE TABLE `oc_attribute_group_description` (
 
 LOCK TABLES `oc_attribute_group_description` WRITE;
 /*!40000 ALTER TABLE `oc_attribute_group_description` DISABLE KEYS */;
-INSERT INTO `oc_attribute_group_description` VALUES (3,1,'Memory'),(4,1,'Technical'),(5,1,'Motherboard'),(6,1,'Processor');
+INSERT INTO `oc_attribute_group_description` VALUES (7,1,'Information');
 /*!40000 ALTER TABLE `oc_attribute_group_description` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -2320,7 +2320,7 @@ CREATE TABLE `oc_product_attribute` (
 
 LOCK TABLES `oc_product_attribute` WRITE;
 /*!40000 ALTER TABLE `oc_product_attribute` DISABLE KEYS */;
-INSERT INTO `oc_product_attribute` VALUES (43,2,1,'1'),(47,4,1,'16GB'),(43,4,1,'8gb'),(42,3,1,'100mhz'),(47,2,1,'4');
+INSERT INTO `oc_product_attribute` VALUES (96,12,1,'3-4 business days'),(97,12,1,'3-4 business days'),(98,12,1,'3-4 business days'),(99,12,1,'1-­2 business days');
 /*!40000 ALTER TABLE `oc_product_attribute` ENABLE KEYS */;
 UNLOCK TABLES;
 
