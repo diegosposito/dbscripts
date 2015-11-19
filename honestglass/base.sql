@@ -1388,7 +1388,7 @@ CREATE TABLE `oc_information` (
 
 LOCK TABLES `oc_information` WRITE;
 /*!40000 ALTER TABLE `oc_information` DISABLE KEYS */;
-INSERT INTO `oc_information` VALUES (3,1,3,1),(4,1,1,1),(5,1,4,1),(6,1,2,1);
+INSERT INTO `oc_information` VALUES (3,0,0,1),(4,1,1,1),(5,1,2,1),(7,1,3,1);
 /*!40000 ALTER TABLE `oc_information` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1417,7 +1417,7 @@ CREATE TABLE `oc_information_description` (
 
 LOCK TABLES `oc_information_description` WRITE;
 /*!40000 ALTER TABLE `oc_information_description` DISABLE KEYS */;
-INSERT INTO `oc_information_description` VALUES (4,1,'About Us','&lt;p&gt;\r\n	About Us&lt;/p&gt;\r\n','','',''),(5,1,'Terms &amp; Conditions','&lt;p&gt;\r\n	Terms &amp;amp; Conditions&lt;/p&gt;\r\n','','',''),(3,1,'Privacy Policy','&lt;p&gt;\r\n	Privacy Policy&lt;/p&gt;\r\n','','',''),(6,1,'Delivery Information','&lt;p&gt;\r\n	Delivery Information&lt;/p&gt;\r\n','','','');
+INSERT INTO `oc_information_description` VALUES (5,1,'Terms of Service','&lt;p&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8px; line-height: normal;&quot;&gt;Terms of Service&lt;/span&gt;&lt;br&gt;&lt;/p&gt;\r\n','Terms of Service','',''),(4,1,'About Us','&lt;p&gt;\r\n About Us&lt;/p&gt;\r\n','About Us','',''),(3,1,'Privacy Policy','&lt;p&gt;\r\n  Privacy Policy&lt;/p&gt;\r\n','Privacy Policy','',''),(7,1,'Help','&lt;p&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8px; line-height: normal;&quot;&gt;Help&lt;/span&gt;&lt;br&gt;&lt;/p&gt;','Help','','');
 /*!40000 ALTER TABLE `oc_information_description` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1442,6 +1442,7 @@ CREATE TABLE `oc_information_to_layout` (
 
 LOCK TABLES `oc_information_to_layout` WRITE;
 /*!40000 ALTER TABLE `oc_information_to_layout` DISABLE KEYS */;
+INSERT INTO `oc_information_to_layout` VALUES (7,0,0),(4,0,0),(3,0,0),(5,0,0);
 /*!40000 ALTER TABLE `oc_information_to_layout` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1465,7 +1466,7 @@ CREATE TABLE `oc_information_to_store` (
 
 LOCK TABLES `oc_information_to_store` WRITE;
 /*!40000 ALTER TABLE `oc_information_to_store` DISABLE KEYS */;
-INSERT INTO `oc_information_to_store` VALUES (3,0),(4,0),(5,0),(6,0);
+INSERT INTO `oc_information_to_store` VALUES (3,0),(4,0),(5,0),(7,0);
 /*!40000 ALTER TABLE `oc_information_to_store` ENABLE KEYS */;
 UNLOCK TABLES;
 
