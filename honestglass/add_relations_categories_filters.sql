@@ -1,169 +1,119 @@
 TRUNCATE TABLE oc_category_filter;
 
-# ADD filters to Artists (1)
-INSERT INTO oc_category_filter SET category_id = '1', filter_id = '1';
-INSERT INTO oc_category_filter SET category_id = '1', filter_id = '2';
-INSERT INTO oc_category_filter SET category_id = '1', filter_id = '3';
-INSERT INTO oc_category_filter SET category_id = '1', filter_id = '4';
-INSERT INTO oc_category_filter SET category_id = '1', filter_id = '51';
-INSERT INTO oc_category_filter SET category_id = '1', filter_id = '52';
-INSERT INTO oc_category_filter SET category_id = '1', filter_id = '53';
-INSERT INTO oc_category_filter SET category_id = '1', filter_id = '54';
-INSERT INTO oc_category_filter SET category_id = '1', filter_id = '55';
-INSERT INTO oc_category_filter SET category_id = '1', filter_id = '56';
-
-# ADD filters to Brands (2)
-INSERT INTO oc_category_filter SET category_id = '2', filter_id = '51';
-INSERT INTO oc_category_filter SET category_id = '2', filter_id = '52';
-INSERT INTO oc_category_filter SET category_id = '2', filter_id = '53';
-INSERT INTO oc_category_filter SET category_id = '2', filter_id = '54';
-INSERT INTO oc_category_filter SET category_id = '2', filter_id = '55';
-INSERT INTO oc_category_filter SET category_id = '2', filter_id = '56';
-
-# ADD filters to Headdies Collab (3)
-INSERT INTO oc_category_filter SET category_id = '3', filter_id = '51';
-INSERT INTO oc_category_filter SET category_id = '3', filter_id = '52';
-INSERT INTO oc_category_filter SET category_id = '3', filter_id = '53';
-INSERT INTO oc_category_filter SET category_id = '3', filter_id = '54';
-INSERT INTO oc_category_filter SET category_id = '3', filter_id = '55';
-INSERT INTO oc_category_filter SET category_id = '3', filter_id = '56';
-
-
-# ADD filters to Dry Pipes (16)
-INSERT INTO oc_category_filter SET category_id = '16', filter_id = '5';
-INSERT INTO oc_category_filter SET category_id = '16', filter_id = '6';
-INSERT INTO oc_category_filter SET category_id = '16', filter_id = '7';
-INSERT INTO oc_category_filter SET category_id = '16', filter_id = '8';
-
-INSERT INTO oc_category_filter SET category_id = '17', filter_id = '5';
-INSERT INTO oc_category_filter SET category_id = '17', filter_id = '6';
-INSERT INTO oc_category_filter SET category_id = '17', filter_id = '7';
-INSERT INTO oc_category_filter SET category_id = '17', filter_id = '8';
-
-INSERT INTO oc_category_filter SET category_id = '18', filter_id = '5';
-INSERT INTO oc_category_filter SET category_id = '18', filter_id = '6';
-INSERT INTO oc_category_filter SET category_id = '18', filter_id = '7';
-INSERT INTO oc_category_filter SET category_id = '18', filter_id = '8';
-
-INSERT INTO oc_category_filter SET category_id = '19', filter_id = '5';
-INSERT INTO oc_category_filter SET category_id = '19', filter_id = '6';
-INSERT INTO oc_category_filter SET category_id = '19', filter_id = '7';
-INSERT INTO oc_category_filter SET category_id = '19', filter_id = '8';
-
-
-# ADD filters to WaterPipes (5)
-INSERT INTO oc_category_filter SET category_id = '5', filter_id = '9';
-INSERT INTO oc_category_filter SET category_id = '5', filter_id = '10';
-INSERT INTO oc_category_filter SET category_id = '5', filter_id = '11';
-INSERT INTO oc_category_filter SET category_id = '5', filter_id = '12';
-INSERT INTO oc_category_filter SET category_id = '5', filter_id = '13';
-INSERT INTO oc_category_filter SET category_id = '5', filter_id = '14';
-INSERT INTO oc_category_filter SET category_id = '5', filter_id = '15';
-INSERT INTO oc_category_filter SET category_id = '5', filter_id = '16';
-INSERT INTO oc_category_filter SET category_id = '5', filter_id = '17';
-INSERT INTO oc_category_filter SET category_id = '5', filter_id = '18';
-INSERT INTO oc_category_filter SET category_id = '5', filter_id = '19';
-INSERT INTO oc_category_filter SET category_id = '5', filter_id = '20';
-INSERT INTO oc_category_filter SET category_id = '5', filter_id = '21';
-INSERT INTO oc_category_filter SET category_id = '5', filter_id = '22';
-INSERT INTO oc_category_filter SET category_id = '5', filter_id = '57';
-INSERT INTO oc_category_filter SET category_id = '5', filter_id = '58';
-
-# ADD filters to Vaporizers (6)
-INSERT INTO oc_category_filter SET category_id = '6', filter_id = '59';
-INSERT INTO oc_category_filter SET category_id = '6', filter_id = '60';
-INSERT INTO oc_category_filter SET category_id = '6', filter_id = '61';
-INSERT INTO oc_category_filter SET category_id = '6', filter_id = '62';
-INSERT INTO oc_category_filter SET category_id = '6', filter_id = '63';
-
-# ADD filters to Rigs (9)
-INSERT INTO oc_category_filter SET category_id = '9', filter_id = '16';
-INSERT INTO oc_category_filter SET category_id = '9', filter_id = '17';
-INSERT INTO oc_category_filter SET category_id = '9', filter_id = '18';
-INSERT INTO oc_category_filter SET category_id = '9', filter_id = '19';
-INSERT INTO oc_category_filter SET category_id = '9', filter_id = '20';
-INSERT INTO oc_category_filter SET category_id = '9', filter_id = '23';
-INSERT INTO oc_category_filter SET category_id = '9', filter_id = '24';
-INSERT INTO oc_category_filter SET category_id = '9', filter_id = '57';
-INSERT INTO oc_category_filter SET category_id = '9', filter_id = '58';
-
-# ADD filters to Rig Essential (10)
-INSERT INTO oc_category_filter SET category_id = '22', filter_id = '16';
-INSERT INTO oc_category_filter SET category_id = '22', filter_id = '17';
-INSERT INTO oc_category_filter SET category_id = '22', filter_id = '18';
-
-INSERT INTO oc_category_filter SET category_id = '23', filter_id = '16';
-INSERT INTO oc_category_filter SET category_id = '23', filter_id = '17';
-INSERT INTO oc_category_filter SET category_id = '23', filter_id = '18';
-INSERT INTO oc_category_filter SET category_id = '23', filter_id = '25';
-INSERT INTO oc_category_filter SET category_id = '23', filter_id = '26';
-
-INSERT INTO oc_category_filter SET category_id = '24', filter_id = '43';
-INSERT INTO oc_category_filter SET category_id = '24', filter_id = '44';
-INSERT INTO oc_category_filter SET category_id = '24', filter_id = '27';
-INSERT INTO oc_category_filter SET category_id = '24', filter_id = '28';
-INSERT INTO oc_category_filter SET category_id = '24', filter_id = '29';
-INSERT INTO oc_category_filter SET category_id = '24', filter_id = '30';
-INSERT INTO oc_category_filter SET category_id = '24', filter_id = '31';
-INSERT INTO oc_category_filter SET category_id = '24', filter_id = '32';
-INSERT INTO oc_category_filter SET category_id = '24', filter_id = '33';
-
-# ADD filters to GlassAccesories(11)
-INSERT INTO oc_category_filter SET category_id = '29', filter_id = '45';
-INSERT INTO oc_category_filter SET category_id = '29', filter_id = '46';
-INSERT INTO oc_category_filter SET category_id = '29', filter_id = '16';
-INSERT INTO oc_category_filter SET category_id = '29', filter_id = '17';
-INSERT INTO oc_category_filter SET category_id = '29', filter_id = '18';
-INSERT INTO oc_category_filter SET category_id = '29', filter_id = '5';
-INSERT INTO oc_category_filter SET category_id = '29', filter_id = '6';
-
-INSERT INTO oc_category_filter SET category_id = '30', filter_id = '45';
-INSERT INTO oc_category_filter SET category_id = '30', filter_id = '46';
-INSERT INTO oc_category_filter SET category_id = '30', filter_id = '30';
-INSERT INTO oc_category_filter SET category_id = '30', filter_id = '31';
-
-INSERT INTO oc_category_filter SET category_id = '32', filter_id = '17';
-INSERT INTO oc_category_filter SET category_id = '32', filter_id = '18';
-INSERT INTO oc_category_filter SET category_id = '32', filter_id = '34';
-INSERT INTO oc_category_filter SET category_id = '32', filter_id = '35';
-
-INSERT INTO oc_category_filter SET category_id = '33', filter_id = '43';
-INSERT INTO oc_category_filter SET category_id = '33', filter_id = '44';
-INSERT INTO oc_category_filter SET category_id = '33', filter_id = '27';
-INSERT INTO oc_category_filter SET category_id = '33', filter_id = '28';
-INSERT INTO oc_category_filter SET category_id = '33', filter_id = '29';
-INSERT INTO oc_category_filter SET category_id = '33', filter_id = '30';
-INSERT INTO oc_category_filter SET category_id = '33', filter_id = '31';
-INSERT INTO oc_category_filter SET category_id = '33', filter_id = '32';
-INSERT INTO oc_category_filter SET category_id = '33', filter_id = '33';
-
-INSERT INTO oc_category_filter SET category_id = '34', filter_id = '16';
-INSERT INTO oc_category_filter SET category_id = '34', filter_id = '17';
-INSERT INTO oc_category_filter SET category_id = '34', filter_id = '18';
-
-# ADD filters to Accesories(12)
-INSERT INTO oc_category_filter SET category_id = '37', filter_id = '36';
-INSERT INTO oc_category_filter SET category_id = '37', filter_id = '37';
-INSERT INTO oc_category_filter SET category_id = '37', filter_id = '38';
-
-INSERT INTO oc_category_filter SET category_id = '39', filter_id = '47';
-INSERT INTO oc_category_filter SET category_id = '39', filter_id = '48';
-
-# ADD filters to Pendants(13)
-INSERT INTO oc_category_filter SET category_id = '13', filter_id = '49';
-INSERT INTO oc_category_filter SET category_id = '13', filter_id = '50';
-
-# ADD filters to Hookaks(14)
-INSERT INTO oc_category_filter SET category_id = '14', filter_id = '39';
-INSERT INTO oc_category_filter SET category_id = '14', filter_id = '40';
-INSERT INTO oc_category_filter SET category_id = '14', filter_id = '41';
-INSERT INTO oc_category_filter SET category_id = '14', filter_id = '42';
-
-
-
-
-
-
-
-
-
+LOCK TABLES `oc_category_filter` WRITE;
+INSERT INTO `oc_category_filter` VALUES (5,9);
+INSERT INTO `oc_category_filter` VALUES (5,10);
+INSERT INTO `oc_category_filter` VALUES (5,11);
+INSERT INTO `oc_category_filter` VALUES (5,12);
+INSERT INTO `oc_category_filter` VALUES (5,13);
+INSERT INTO `oc_category_filter` VALUES (5,14);
+INSERT INTO `oc_category_filter` VALUES (5,15);
+INSERT INTO `oc_category_filter` VALUES (5,16);
+INSERT INTO `oc_category_filter` VALUES (5,17);
+INSERT INTO `oc_category_filter` VALUES (5,18);
+INSERT INTO `oc_category_filter` VALUES (5,57);
+INSERT INTO `oc_category_filter` VALUES (5,58);
+INSERT INTO `oc_category_filter` VALUES (5,64);
+INSERT INTO `oc_category_filter` VALUES (7,1);
+INSERT INTO `oc_category_filter` VALUES (7,2);
+INSERT INTO `oc_category_filter` VALUES (8,1);
+INSERT INTO `oc_category_filter` VALUES (8,2);
+INSERT INTO `oc_category_filter` VALUES (9,16);
+INSERT INTO `oc_category_filter` VALUES (9,17);
+INSERT INTO `oc_category_filter` VALUES (9,18);
+INSERT INTO `oc_category_filter` VALUES (9,19);
+INSERT INTO `oc_category_filter` VALUES (9,20);
+INSERT INTO `oc_category_filter` VALUES (9,23);
+INSERT INTO `oc_category_filter` VALUES (9,24);
+INSERT INTO `oc_category_filter` VALUES (9,57);
+INSERT INTO `oc_category_filter` VALUES (9,58);
+INSERT INTO `oc_category_filter` VALUES (13,49);
+INSERT INTO `oc_category_filter` VALUES (13,50);
+INSERT INTO `oc_category_filter` VALUES (14,39);
+INSERT INTO `oc_category_filter` VALUES (14,40);
+INSERT INTO `oc_category_filter` VALUES (14,41);
+INSERT INTO `oc_category_filter` VALUES (14,42);
+INSERT INTO `oc_category_filter` VALUES (16,1);
+INSERT INTO `oc_category_filter` VALUES (16,2);
+INSERT INTO `oc_category_filter` VALUES (16,5);
+INSERT INTO `oc_category_filter` VALUES (16,6);
+INSERT INTO `oc_category_filter` VALUES (16,7);
+INSERT INTO `oc_category_filter` VALUES (16,8);
+INSERT INTO `oc_category_filter` VALUES (17,1);
+INSERT INTO `oc_category_filter` VALUES (17,2);
+INSERT INTO `oc_category_filter` VALUES (17,5);
+INSERT INTO `oc_category_filter` VALUES (17,6);
+INSERT INTO `oc_category_filter` VALUES (17,7);
+INSERT INTO `oc_category_filter` VALUES (17,8);
+INSERT INTO `oc_category_filter` VALUES (18,1);
+INSERT INTO `oc_category_filter` VALUES (18,2);
+INSERT INTO `oc_category_filter` VALUES (18,5);
+INSERT INTO `oc_category_filter` VALUES (18,6);
+INSERT INTO `oc_category_filter` VALUES (18,7);
+INSERT INTO `oc_category_filter` VALUES (18,8);
+INSERT INTO `oc_category_filter` VALUES (19,1);
+INSERT INTO `oc_category_filter` VALUES (19,2);
+INSERT INTO `oc_category_filter` VALUES (19,5);
+INSERT INTO `oc_category_filter` VALUES (19,6);
+INSERT INTO `oc_category_filter` VALUES (19,7);
+INSERT INTO `oc_category_filter` VALUES (19,8);
+INSERT INTO `oc_category_filter` VALUES (20,1);
+INSERT INTO `oc_category_filter` VALUES (20,2);
+INSERT INTO `oc_category_filter` VALUES (21,1);
+INSERT INTO `oc_category_filter` VALUES (21,2);
+INSERT INTO `oc_category_filter` VALUES (22,16);
+INSERT INTO `oc_category_filter` VALUES (22,17);
+INSERT INTO `oc_category_filter` VALUES (22,18);
+INSERT INTO `oc_category_filter` VALUES (23,16);
+INSERT INTO `oc_category_filter` VALUES (23,17);
+INSERT INTO `oc_category_filter` VALUES (23,18);
+INSERT INTO `oc_category_filter` VALUES (23,65);
+INSERT INTO `oc_category_filter` VALUES (23,66);
+INSERT INTO `oc_category_filter` VALUES (23,67);
+INSERT INTO `oc_category_filter` VALUES (23,68);
+INSERT INTO `oc_category_filter` VALUES (23,69);
+INSERT INTO `oc_category_filter` VALUES (24,27);
+INSERT INTO `oc_category_filter` VALUES (24,28);
+INSERT INTO `oc_category_filter` VALUES (24,29);
+INSERT INTO `oc_category_filter` VALUES (24,30);
+INSERT INTO `oc_category_filter` VALUES (24,31);
+INSERT INTO `oc_category_filter` VALUES (24,32);
+INSERT INTO `oc_category_filter` VALUES (24,33);
+INSERT INTO `oc_category_filter` VALUES (24,43);
+INSERT INTO `oc_category_filter` VALUES (24,44);
+INSERT INTO `oc_category_filter` VALUES (24,70);
+INSERT INTO `oc_category_filter` VALUES (24,71);
+INSERT INTO `oc_category_filter` VALUES (24,72);
+INSERT INTO `oc_category_filter` VALUES (24,73);
+INSERT INTO `oc_category_filter` VALUES (24,74);
+INSERT INTO `oc_category_filter` VALUES (24,75);
+INSERT INTO `oc_category_filter` VALUES (29,5);
+INSERT INTO `oc_category_filter` VALUES (29,6);
+INSERT INTO `oc_category_filter` VALUES (29,16);
+INSERT INTO `oc_category_filter` VALUES (29,17);
+INSERT INTO `oc_category_filter` VALUES (29,18);
+INSERT INTO `oc_category_filter` VALUES (29,45);
+INSERT INTO `oc_category_filter` VALUES (29,46);
+INSERT INTO `oc_category_filter` VALUES (30,31);
+INSERT INTO `oc_category_filter` VALUES (30,32);
+INSERT INTO `oc_category_filter` VALUES (30,45);
+INSERT INTO `oc_category_filter` VALUES (30,46);
+INSERT INTO `oc_category_filter` VALUES (32,17);
+INSERT INTO `oc_category_filter` VALUES (32,18);
+INSERT INTO `oc_category_filter` VALUES (32,34);
+INSERT INTO `oc_category_filter` VALUES (32,35);
+INSERT INTO `oc_category_filter` VALUES (33,27);
+INSERT INTO `oc_category_filter` VALUES (33,28);
+INSERT INTO `oc_category_filter` VALUES (33,29);
+INSERT INTO `oc_category_filter` VALUES (33,30);
+INSERT INTO `oc_category_filter` VALUES (33,31);
+INSERT INTO `oc_category_filter` VALUES (33,32);
+INSERT INTO `oc_category_filter` VALUES (33,33);
+INSERT INTO `oc_category_filter` VALUES (33,74);
+INSERT INTO `oc_category_filter` VALUES (33,75);
+INSERT INTO `oc_category_filter` VALUES (37,36);
+INSERT INTO `oc_category_filter` VALUES (37,37);
+INSERT INTO `oc_category_filter` VALUES (37,38);
+INSERT INTO `oc_category_filter` VALUES (39,47);
+INSERT INTO `oc_category_filter` VALUES (39,48);
+UNLOCK TABLES;
