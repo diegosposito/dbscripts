@@ -214,6 +214,17 @@
 		PRIMARY KEY (`suborder_history_id`)
 		) DEFAULT CHARSET=utf8;
 
+		CREATE TABLE `oc_ms_shipping_company` (
+		  `shipping_company_id` int(11) NOT NULL AUTO_INCREMENT,
+		  `seller_group_id` int(11) NOT NULL,
+		  `name` varchar(70) NOT NULL DEFAULT '',
+		  `description` text NOT NULL,
+		  `url` varchar(250) NOT NULL DEFAULT '',
+		  `enabled` tinyint(4) NOT NULL DEFAULT '1',
+		  `language_id` int(11) DEFAULT NULL,
+		  PRIMARY KEY (`shipping_company_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 		ALTER TABLE `oc_review` ADD COLUMN `seller_id` int(11) NOT NULL;
 
 		  INSERT INTO oc_ms_db_schema (major, minor, build, revision, date_applied) VALUES(1,0,2,1, NOW());
