@@ -46,3 +46,8 @@ INSERT INTO oc_user_group SET name = 'Shipping Admin', permission = 'a:2:{s:6:\"
 INSERT INTO `oc_user` SET username = 'mazi', user_group_id = '11', salt = '26d0c8fbb', password = 'ffa71c41e059ae6c55405c6047af4e7f157caf52', firstname = 'Mazi', lastname = 'Soft', email = 'dsposito@gmail.com', image = '', status = '1', date_added = NOW();
 
 
+# HIDE module layout account, barra a la derecha con los links
+UPDATE oc_layout SET name = 'Account' WHERE layout_id = '6';
+DELETE FROM oc_layout_route WHERE layout_id = '6';
+INSERT INTO oc_layout_route SET layout_id = '6', store_id = '0', route = 'account/%';
+DELETE FROM oc_layout_module WHERE layout_id = '6';
