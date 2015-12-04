@@ -67,6 +67,12 @@
 		`commission_id` int(11) DEFAULT NULL,
 		`seller_international_shipping` tinyint(4) NOT NULL DEFAULT '0',
 		`seller_per_amt` decimal(15,4) NOT NULL DEFAULT '0',
+		`facebook` VARCHAR(255) DEFAULT NULL,
+		`twitter` VARCHAR(255) DEFAULT NULL,
+		`instagram` VARCHAR(255) DEFAULT NULL,
+		`pinterest` VARCHAR(255) DEFAULT NULL,
+		`bankname` VARCHAR(255) DEFAULT NULL,
+		`bankaccountnumber` VARCHAR(255) DEFAULT NULL,
 		PRIMARY KEY (`seller_id`)) default CHARSET=utf8;
 
 		CREATE TABLE `oc_ms_balance` (
