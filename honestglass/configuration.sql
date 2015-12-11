@@ -38,6 +38,9 @@ INSERT INTO oc_extension SET `type` = 'shipping', `code` = 'free';
 INSERT INTO oc_extension SET `type` = 'shipping', `code` = 'percentage';
 
 
+# agrega filtro de precios
+INSERT INTO `oc_extension` VALUES (NULL,'module','price_filter');
+
 # Esto es para asociar los productos al seller 1, para que se puedan visualizar
 #INSERT INTO oc_ms_product SELECT product_id, 1, 0, 1, 1, NULL, 0 FROM oc_product
 
