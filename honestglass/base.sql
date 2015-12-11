@@ -954,7 +954,8 @@ CREATE TABLE `oc_customer_group` (
 
 LOCK TABLES `oc_customer_group` WRITE;
 /*!40000 ALTER TABLE `oc_customer_group` DISABLE KEYS */;
-INSERT INTO `oc_customer_group` VALUES (1,0,1);
+INSERT INTO oc_customer_group SET approval = '0', sort_order = '1';
+INSERT INTO oc_customer_group SET approval = '0', sort_order = '2';
 /*!40000 ALTER TABLE `oc_customer_group` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -980,7 +981,8 @@ CREATE TABLE `oc_customer_group_description` (
 
 LOCK TABLES `oc_customer_group_description` WRITE;
 /*!40000 ALTER TABLE `oc_customer_group_description` DISABLE KEYS */;
-INSERT INTO `oc_customer_group_description` VALUES (1,1,'Default','test');
+INSERT INTO oc_customer_group_description SET customer_group_id = '1', language_id = '1', name = 'Buyers', description = 'Buyers';
+INSERT INTO oc_customer_group_description SET customer_group_id = '2', language_id = '1', name = 'Sellers', description = 'Sellers';
 /*!40000 ALTER TABLE `oc_customer_group_description` ENABLE KEYS */;
 UNLOCK TABLES;
 
