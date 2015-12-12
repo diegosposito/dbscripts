@@ -31,6 +31,7 @@ INSERT INTO `oc_category` VALUES (25,'',10,0,1,25,1,'2015-11-24 07:18:59','2015-
 INSERT INTO `oc_category` VALUES (26,'',10,0,1,26,1,'2015-11-24 07:18:59','2015-11-24 07:18:59');
 INSERT INTO `oc_category` VALUES (27,'',10,0,1,27,1,'2015-11-24 07:18:59','2015-11-24 07:18:59');
 INSERT INTO `oc_category` VALUES (28,'',10,0,1,28,1,'2015-11-24 07:18:59','2015-11-24 07:18:59');
+INSERT INTO `oc_category` VALUES (40,'',10,0,1,40,1,'2015-11-24 07:18:59','2015-11-24 07:18:59');
 INSERT INTO `oc_category` VALUES (29,'',11,0,1,29,1,'2015-11-24 07:18:59','2015-11-24 07:18:59');
 INSERT INTO `oc_category` VALUES (30,'',11,0,1,30,1,'2015-11-24 07:18:59','2015-11-24 07:18:59');
 INSERT INTO `oc_category` VALUES (31,'',11,0,1,31,1,'2015-11-24 07:18:59','2015-11-24 07:18:59');
@@ -78,6 +79,7 @@ INSERT INTO `oc_category_description` VALUES (36,1,'Cleaner','&lt;p&gt;Cleaner&l
 INSERT INTO `oc_category_description` VALUES (37,1,'Grinders','&lt;p&gt;Grinders&lt;br&gt;&lt;/p&gt;','Grinders','Grinders','Grinders');
 INSERT INTO `oc_category_description` VALUES (38,1,'Pollen Boxes','&lt;p&gt;Pollen Boxes&lt;br&gt;&lt;/p&gt;','Pollen Boxes','Pollen Boxes','Pollen Boxes');
 INSERT INTO `oc_category_description` VALUES (39,1,'Cases','&lt;p&gt;Cases&lt;br&gt;&lt;/p&gt;','Cases','Cases','Cases');
+INSERT INTO `oc_category_description` VALUES (40,1,'Carb Cap','&lt;p&gt;Carb Cap&lt;br&gt;&lt;/p&gt;','Carb Cap','Carb Cap','Carb Cap');
 UNLOCK TABLES;
 
 LOCK TABLES `oc_category_path` WRITE;
@@ -138,6 +140,8 @@ INSERT INTO `oc_category_path` VALUES (38,12,0);
 INSERT INTO `oc_category_path` VALUES (38,38,1);
 INSERT INTO `oc_category_path` VALUES (39,12,0);
 INSERT INTO `oc_category_path` VALUES (39,39,1);
+INSERT INTO `oc_category_path` VALUES (40,10,0);
+INSERT INTO `oc_category_path` VALUES (40,40,1);
 UNLOCK TABLES;
 
 --
@@ -179,6 +183,7 @@ INSERT INTO `oc_category_to_store` VALUES (36,0);
 INSERT INTO `oc_category_to_store` VALUES (37,0);
 INSERT INTO `oc_category_to_store` VALUES (38,0);
 INSERT INTO `oc_category_to_store` VALUES (39,0);
+INSERT INTO `oc_category_to_store` VALUES (40,0);
 UNLOCK TABLES;
 
 --
@@ -220,6 +225,7 @@ INSERT INTO `oc_category_to_layout` VALUES (36,0,0);
 INSERT INTO `oc_category_to_layout` VALUES (37,0,0);
 INSERT INTO `oc_category_to_layout` VALUES (38,0,0);
 INSERT INTO `oc_category_to_layout` VALUES (39,0,0);
+INSERT INTO `oc_category_to_layout` VALUES (40,0,0);
 UNLOCK TABLES;
 
 INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (1,'category_id=38','pollenboxes');
@@ -256,5 +262,5 @@ INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (40,'category_id=26
 INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (41,'category_id=22','domesrig');
 INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (42,'category_id=28','mats');
 INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (49,'category_id=23','nails');
-
+INSERT INTO oc_url_alias (url_alias_id,query,keyword) VALUES (60,'category_id=40','carbcap');
 
