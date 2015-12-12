@@ -59,8 +59,8 @@ UNLOCK TABLES;
 --
 
 LOCK TABLES `oc_filter` WRITE;
+INSERT INTO `oc_filter` VALUES (76,18,4);
 INSERT INTO `oc_filter` VALUES (67,18,3);
-INSERT INTO `oc_filter` VALUES (66,18,2);
 INSERT INTO `oc_filter` VALUES (3,2,1);
 INSERT INTO `oc_filter` VALUES (4,2,2);
 INSERT INTO `oc_filter` VALUES (5,3,1);
@@ -77,7 +77,7 @@ INSERT INTO `oc_filter` VALUES (15,6,4);
 INSERT INTO `oc_filter` VALUES (16,7,1);
 INSERT INTO `oc_filter` VALUES (17,7,2);
 INSERT INTO `oc_filter` VALUES (18,7,3);
-INSERT INTO `oc_filter` VALUES (65,18,1);
+INSERT INTO `oc_filter` VALUES (66,18,2);
 INSERT INTO `oc_filter` VALUES (11,5,3);
 INSERT INTO `oc_filter` VALUES (21,9,1);
 INSERT INTO `oc_filter` VALUES (22,9,2);
@@ -130,6 +130,7 @@ INSERT INTO `oc_filter` VALUES (71,20,2);
 INSERT INTO `oc_filter` VALUES (70,20,1);
 INSERT INTO `oc_filter` VALUES (74,12,8);
 INSERT INTO `oc_filter` VALUES (75,12,9);
+INSERT INTO `oc_filter` VALUES (65,18,1);
 UNLOCK TABLES;
 
 --
@@ -137,7 +138,7 @@ UNLOCK TABLES;
 --
 
 LOCK TABLES `oc_filter_description` WRITE;
-INSERT INTO `oc_filter_description` VALUES (65,1,18,'Ceramic');
+INSERT INTO `oc_filter_description` VALUES (67,1,18,'Quartz');
 INSERT INTO `oc_filter_description` VALUES (3,1,2,'Old School');
 INSERT INTO `oc_filter_description` VALUES (4,1,2,'New School');
 INSERT INTO `oc_filter_description` VALUES (5,1,3,'Single');
@@ -198,7 +199,6 @@ INSERT INTO `oc_filter_description` VALUES (61,1,17,'Portable');
 INSERT INTO `oc_filter_description` VALUES (62,1,17,'Stationary');
 INSERT INTO `oc_filter_description` VALUES (63,1,17,'Accessories');
 INSERT INTO `oc_filter_description` VALUES (66,1,18,'Titanium');
-INSERT INTO `oc_filter_description` VALUES (67,1,18,'Quartz');
 INSERT INTO `oc_filter_description` VALUES (68,1,19,'Male');
 INSERT INTO `oc_filter_description` VALUES (69,1,19,'Female');
 INSERT INTO `oc_filter_description` VALUES (73,1,20,'Female-Female');
@@ -208,5 +208,7 @@ INSERT INTO `oc_filter_description` VALUES (70,1,20,'Male-Male');
 INSERT INTO `oc_filter_description` VALUES (33,1,12,'10-10');
 INSERT INTO `oc_filter_description` VALUES (74,1,12,'10-14');
 INSERT INTO `oc_filter_description` VALUES (75,1,12,'10-18.8');
+INSERT INTO `oc_filter_description` VALUES (65,1,18,'Ceramic');
+INSERT INTO `oc_filter_description` VALUES (76,1,18,'E-Nails');
 UNLOCK TABLES;
 
