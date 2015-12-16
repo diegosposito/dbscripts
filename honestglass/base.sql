@@ -945,7 +945,7 @@ CREATE TABLE `oc_customer_group` (
   `approval` int(1) NOT NULL,
   `sort_order` int(3) NOT NULL,
   PRIMARY KEY (`customer_group_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -954,8 +954,8 @@ CREATE TABLE `oc_customer_group` (
 
 LOCK TABLES `oc_customer_group` WRITE;
 /*!40000 ALTER TABLE `oc_customer_group` DISABLE KEYS */;
-INSERT INTO oc_customer_group SET approval = '0', sort_order = '1';
-INSERT INTO oc_customer_group SET approval = '0', sort_order = '2';
+INSERT INTO oc_customer_group SET customer_group_id = '1', approval = '0', sort_order = '1';
+INSERT INTO oc_customer_group SET customer_group_id = '2', approval = '0', sort_order = '2';
 /*!40000 ALTER TABLE `oc_customer_group` ENABLE KEYS */;
 UNLOCK TABLES;
 
