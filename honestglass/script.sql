@@ -73,6 +73,9 @@
 		`pinterest` VARCHAR(255) DEFAULT NULL,
 		`bankname` VARCHAR(255) DEFAULT NULL,
 		`bankaccountnumber` VARCHAR(255) DEFAULT NULL,
+		`seller_shipping_info` VARCHAR(2000) DEFAULT NULL,
+		`seller_policies_info` VARCHAR(2000) DEFAULT NULL,
+		`headerbackcolor` int(11) DEFAULT NULL,
 		PRIMARY KEY (`seller_id`)) default CHARSET=utf8;
 
 		CREATE TABLE `oc_ms_balance` (
