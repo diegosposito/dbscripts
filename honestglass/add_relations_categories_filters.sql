@@ -73,6 +73,8 @@ INSERT INTO `oc_category_filter` VALUES (23,67);
 INSERT INTO `oc_category_filter` VALUES (23,68);
 INSERT INTO `oc_category_filter` VALUES (23,69);
 INSERT INTO `oc_category_filter` VALUES (23,76);
+INSERT INTO `oc_category_filter` VALUES (23,77);
+INSERT INTO `oc_category_filter` VALUES (23,78);
 INSERT INTO `oc_category_filter` VALUES (24,27);
 INSERT INTO `oc_category_filter` VALUES (24,28);
 INSERT INTO `oc_category_filter` VALUES (24,29);
