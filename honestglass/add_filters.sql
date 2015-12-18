@@ -77,6 +77,8 @@ INSERT INTO `oc_filter` VALUES (15,6,4);
 INSERT INTO `oc_filter` VALUES (16,7,1);
 INSERT INTO `oc_filter` VALUES (17,7,2);
 INSERT INTO `oc_filter` VALUES (18,7,3);
+INSERT INTO `oc_filter` VALUES (77,7,4);
+INSERT INTO `oc_filter` VALUES (78,7,5);
 INSERT INTO `oc_filter` VALUES (66,18,2);
 INSERT INTO `oc_filter` VALUES (11,5,3);
 INSERT INTO `oc_filter` VALUES (21,9,1);
@@ -210,5 +212,7 @@ INSERT INTO `oc_filter_description` VALUES (74,1,12,'10-14');
 INSERT INTO `oc_filter_description` VALUES (75,1,12,'10-18.8');
 INSERT INTO `oc_filter_description` VALUES (65,1,18,'Ceramic');
 INSERT INTO `oc_filter_description` VALUES (76,1,18,'E-Nails');
+INSERT INTO `oc_filter_description` VALUES (77,1,7,'10-14mm');
+INSERT INTO `oc_filter_description` VALUES (78,1,7,'14-18.8mm');
 UNLOCK TABLES;
 
