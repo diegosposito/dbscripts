@@ -1419,7 +1419,7 @@ CREATE TABLE `oc_information_description` (
 
 LOCK TABLES `oc_information_description` WRITE;
 /*!40000 ALTER TABLE `oc_information_description` DISABLE KEYS */;
-INSERT INTO `oc_information_description` VALUES (5,1,'Terms of Service','&lt;p&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8px; line-height: normal;&quot;&gt;Terms of Service&lt;/span&gt;&lt;br&gt;&lt;/p&gt;\r\n','Terms of Service','',''),(4,1,'About Us','&lt;p&gt;\r\n About Us&lt;/p&gt;\r\n','About Us','',''),(3,1,'Privacy Policy','&lt;p&gt;\r\n  Privacy Policy&lt;/p&gt;\r\n','Privacy Policy','',''),(7,1,'Help','&lt;p&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8px; line-height: normal;&quot;&gt;Help&lt;/span&gt;&lt;br&gt;&lt;/p&gt;','Help','','');
+INSERT INTO `oc_information_description` VALUES (5,1,'Terms of Service','Terms of Service','Terms of Service','',''),(4,1,'About Us','About Us','About Us','',''),(3,1,'User Agreement / Privacy Policy','User Agreement / Privacy Policy','User Agreement / Privacy Policy','',''),(7,1,'Help','Help','Help','','');
 /*!40000 ALTER TABLE `oc_information_description` ENABLE KEYS */;
 UNLOCK TABLES;
 
