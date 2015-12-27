@@ -369,3 +369,6 @@ INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'DHL','DHL','http://www.dhl-u
 INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'Econt','Econt','http://www.econt.com/tracking/?num={tracking_code}',1, 1);
 INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'UTI','UTI','http://www.go2uti.com/tracking',1, 1);
 INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'Fedex','Fedex','https://www.fedex.com/apps/fedextrack/?action=track&trackingnumber={tracking_code}',1, 1);
+
+# add new field on oc_customer table
+ALTER TABLE oc_customer ADD COLUMN `username` varchar(32) NOT NULL;
