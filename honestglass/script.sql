@@ -72,6 +72,7 @@
 		`instagram` VARCHAR(255) DEFAULT NULL,
 		`pinterest` VARCHAR(255) DEFAULT NULL,
 		`bankname` VARCHAR(255) DEFAULT NULL,
+		`bankaccountname` VARCHAR(255) DEFAULT NULL,
 		`bankaccountnumber` VARCHAR(255) DEFAULT NULL,
 		`seller_shipping_info` VARCHAR(2000) DEFAULT NULL,
 		`seller_policies_info` VARCHAR(2000) DEFAULT NULL,
