@@ -360,16 +360,17 @@
 
 
 # add shipping companies
-INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'harikapet.com','harikapet.com','http://www.harikapet.com',1, 1);
-INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'Correios','Correios','http://websro.correios.com.br/sro_bin/txect01$.QueryList?P_LINGUA=001&P_TIPO=001&P_COD_UNI={tracking_code}',1, 1);
-INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'UPS','UPS','http://wwwapps.ups.com/etracking/tracking.cgi?tracknums_displayed=25&TypeOfInquiryNumber=T&HTMLVersion=4.0&InquiryNumber={tracking_code}',1, 1);
-INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'USPS','USPS','https://tools.usps.com/go/TrackConfirmAction.action?tLabels={tracking_code}',1, 1);
-INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'Purolator','Purolator','http://shipnow.purolator.com/shiponline/track/purolatortrack.asp?pinno={tracking_code}',1, 1);
-INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'Aramex','Aramex','http://www.track-trace.com/post',1, 1);
-INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'DHL','DHL','http://www.dhl-usa.com/content/us/en/express/tracking.shtml?brand=DHL&AWB={tracking_code}',1, 1);
-INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'Econt','Econt','http://www.econt.com/tracking/?num={tracking_code}',1, 1);
-INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'UTI','UTI','http://www.go2uti.com/tracking',1, 1);
-INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'Fedex','Fedex','https://www.fedex.com/apps/fedextrack/?action=track&trackingnumber={tracking_code}',1, 1);
+#INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'harikapet.com','harikapet.com','http://www.harikapet.com',1, 1);
+#INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'Correios','Correios','http://websro.correios.com.br/sro_bin/txect01$.QueryList?P_LINGUA=001&P_TIPO=001&P_COD_UNI={tracking_code}',1, 1);
+#INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'UPS','UPS','http://wwwapps.ups.com/etracking/tracking.cgi?tracknums_displayed=25&TypeOfInquiryNumber=T&HTMLVersion=4.0&InquiryNumber={tracking_code}',1, 1);
+#INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'USPS','USPS','https://tools.usps.com/go/TrackConfirmAction.action?tLabels={tracking_code}',1, 1);
+#INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'Purolator','Purolator','http://shipnow.purolator.com/shiponline/track/purolatortrack.asp?pinno={tracking_code}',1, 1);
+#INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'Aramex','Aramex','http://www.track-trace.com/post',1, 1);
+#INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'DHL','DHL','http://www.dhl-usa.com/content/us/en/express/tracking.shtml?brand=DHL&AWB={tracking_code}',1, 1);
+#INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'Econt','Econt','http://www.econt.com/tracking/?num={tracking_code}',1, 1);
+#INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'UTI','UTI','http://www.go2uti.com/tracking',1, 1);
+#INSERT INTO `oc_ms_shipping_company` VALUES (NULL, 'Fedex','Fedex','https://www.fedex.com/apps/fedextrack/?action=track&trackingnumber={tracking_code}',1, 1);
+INSERT INTO `oc_ms_shipping_company` VALUES (1,'UPS','https://www.ups.com','https://www.ups.com/WebTracking/track?loc=en_gb',1,1),(2,'Fedex','https://www.fedex.com','https://www.fedex.com/apps/fedextrack/?cntry_code=ca_english',1,1),(3,'USPS','https://www.usps.com/','https://tools.usps.com/go/TrackConfirmAction_input',1,1),(4,'DHL','http://www.dhl.com','http://www.dhl.com/en/express/tracking.html',1,1),(5,'Canada Post','https://www.canadapost.ca','https://www.canadapost.ca/cpotools/apps/track/personal/findByTrackNumber?execution=e1s1',1,1);
 
 # add new field on oc_customer table
 ALTER TABLE oc_customer ADD COLUMN `username` varchar(32) NOT NULL;
