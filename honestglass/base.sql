@@ -2183,7 +2183,7 @@ CREATE TABLE `oc_order_status` (
 
 LOCK TABLES `oc_order_status` WRITE;
 /*!40000 ALTER TABLE `oc_order_status` DISABLE KEYS */;
-INSERT INTO `oc_order_status` VALUES (2,1,'Processing'),(3,1,'Shipped'),(7,1,'Canceled'),(5,1,'Complete'),(8,1,'Denied'),(9,1,'Canceled Reversal'),(10,1,'Failed'),(11,1,'Refunded'),(12,1,'Reversed'),(13,1,'Chargeback'),(1,1,'Pending'),(16,1,'Voided'),(15,1,'Open'),(14,1,'Expired');
+INSERT INTO `oc_order_status` VALUES (2,1,'Processing'),(3,1,'Shipped'),(7,1,'Canceled'),(5,1,'Complete'),(8,1,'Denied'),(9,1,'Canceled Reversal'),(10,1,'Failed'),(11,1,'Refunded'),(12,1,'Reversed'),(13,1,'Chargeback'),(1,1,'Pending'),(16,1,'Voided'),(15,1,'Processed'),(14,1,'Expired');
 /*!40000 ALTER TABLE `oc_order_status` ENABLE KEYS */;
 UNLOCK TABLES;
 
