@@ -17,7 +17,7 @@ mysql -uroot -proot911 $1 < add_filters.sql
 
 mysql -uroot -proot911 $1 < add_relations_categories_filters.sql
 
-mysql -uroot -proot911 $1 < filtros-category.sql
+#mysql -uroot -proot911 $1 < filtros-category.sql
 
 mysql -uroot -proot911 $1 < oc_setting.sql
 
