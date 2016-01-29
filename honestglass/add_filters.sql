@@ -50,7 +50,7 @@ INSERT INTO `oc_filter_group_description` VALUES (13,1,'Degree');
 INSERT INTO `oc_filter_group_description` VALUES (14,1,'Piece');
 INSERT INTO `oc_filter_group_description` VALUES (15,1,'Hoses');
 INSERT INTO `oc_filter_group_description` VALUES (16,1,'Style');
-INSERT INTO `oc_filter_group_description` VALUES (17,1,'Types');
+INSERT INTO `oc_filter_group_description` VALUES (17,1,'Type');
 INSERT INTO `oc_filter_group_description` VALUES (20,1,'Fitting');
 UNLOCK TABLES;
 
