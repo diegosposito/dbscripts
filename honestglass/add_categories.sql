@@ -46,7 +46,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `oc_category_description` WRITE;
 INSERT INTO `oc_category_description` VALUES (4,1,'Dry Pipes','&lt;p&gt;Dry Pipes&lt;br&gt;&lt;/p&gt;','Dry Pipes','Dry Pipes','Dry Pipes');
-INSERT INTO `oc_category_description` VALUES (5,1,'Waterpipes','&lt;p&gt;Waterpipes&lt;br&gt;&lt;/p&gt;','Waterpipes','Waterpipes','Waterpipes');
+INSERT INTO `oc_category_description` VALUES (5,1,'Water Pipes','&lt;p&gt;Waterpipes&lt;br&gt;&lt;/p&gt;','Waterpipes','Waterpipes','Waterpipes');
 INSERT INTO `oc_category_description` VALUES (7,1,'Non Functional Glass Art','&lt;p&gt;Non Functional Glass Art&lt;br&gt;&lt;/p&gt;','Non Functional Glass Art','Non Functional Glass Art','Non Functional Glass Art');
 INSERT INTO `oc_category_description` VALUES (8,1,'Sculpted Glass','&lt;p&gt;Sculpted Glass&lt;br&gt;&lt;/p&gt;','Sculpted Glass','Sculpted Glass','Sculpted Glass');
 INSERT INTO `oc_category_description` VALUES (9,1,'Rigs','&lt;p&gt;Rigs&lt;br&gt;&lt;/p&gt;','Rigs','Rigs','Rigs');
