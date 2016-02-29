@@ -1,5 +1,5 @@
 TRUNCATE TABLE oc_category;
-TRUNCATE TABLE oc_category_filter
+TRUNCATE TABLE oc_category_filter;
 TRUNCATE TABLE oc_category_description;
 TRUNCATE TABLE oc_category_path;
 TRUNCATE TABLE oc_category_to_store;
